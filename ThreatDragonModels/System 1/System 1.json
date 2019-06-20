@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "System 1",
+    "owner": "Laine",
+    "description": "this system takes inputs does magic then gives outputs"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Laine"
+  }
+}
