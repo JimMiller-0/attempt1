@@ -23,8 +23,8 @@
                 "height": 80
               },
               "position": {
-                "x": 478,
-                "y": 403
+                "x": 475,
+                "y": 458
               },
               "angle": 0,
               "id": "5b14e596-0323-420c-b58a-ae5e46e8872f",
@@ -55,7 +55,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 0"
+                  "text": "DataStore"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
@@ -69,22 +69,30 @@
                 "height": 100
               },
               "position": {
-                "x": 504,
+                "x": 512,
                 "y": 163
               },
               "angle": 0,
               "id": "bc1309d0-3d5f-41e7-881c-ed66cfa4a5d9",
               "z": 2,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Memory Scrapping",
+                  "type": "Information disclosure"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 1"
+                  "text": "Application"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -123,20 +131,7 @@
               "target": {
                 "id": "5b14e596-0323-420c-b58a-ae5e46e8872f"
               },
-              "vertices": [
-                {
-                  "x": 557,
-                  "y": 286
-                },
-                {
-                  "x": 555,
-                  "y": 353
-                },
-                {
-                  "x": 555,
-                  "y": 377
-                }
-              ],
+              "vertices": [],
               "id": "ae4e6da7-784a-4a46-90d5-a7a672091e89",
               "labels": [
                 {
@@ -151,13 +146,21 @@
                 }
               ],
               "z": 4,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Man in the Middle",
+                  "type": "Information disclosure"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             }
