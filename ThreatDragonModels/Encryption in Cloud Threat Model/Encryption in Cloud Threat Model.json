@@ -4,7 +4,11 @@
     "owner": "Jim Miller"
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Jim Miller"
+      }
+    ],
     "diagrams": [
       {
         "title": "Encryption Threat Model",
