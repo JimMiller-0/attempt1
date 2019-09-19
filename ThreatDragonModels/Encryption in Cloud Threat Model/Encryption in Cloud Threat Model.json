@@ -13,7 +13,160 @@
       {
         "title": "Encryption Threat Model",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 478,
+                "y": 403
+              },
+              "angle": 0,
+              "id": "5b14e596-0323-420c-b58a-ae5e46e8872f",
+              "z": 1,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Low",
+                  "title": "Physical Disc",
+                  "type": "Information disclosure"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "File System",
+                  "type": "Information disclosure"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Object",
+                  "type": "Information disclosure"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 0"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 504,
+                "y": 163
+              },
+              "angle": 0,
+              "id": "bc1309d0-3d5f-41e7-881c-ed66cfa4a5d9",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 1"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 46,
+                "y": 336
+              },
+              "angle": 0,
+              "id": "894dedbf-b736-49e1-ac58-47dfb437c90b",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "actor 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "bc1309d0-3d5f-41e7-881c-ed66cfa4a5d9"
+              },
+              "target": {
+                "id": "5b14e596-0323-420c-b58a-ae5e46e8872f"
+              },
+              "vertices": [
+                {
+                  "x": 557,
+                  "y": 286
+                },
+                {
+                  "x": 555,
+                  "y": 353
+                },
+                {
+                  "x": 555,
+                  "y": 377
+                }
+              ],
+              "id": "ae4e6da7-784a-4a46-90d5-a7a672091e89",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 3",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 838.0232543945312
+        }
       }
     ],
     "reviewer": "TBD"
